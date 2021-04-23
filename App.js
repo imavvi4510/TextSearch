@@ -27,7 +27,6 @@ export default function App() {
       .then((response) => {
         setData(response);
 
-        // ADD THIS
         setFullData(response);
 
         setIsLoading(false);
